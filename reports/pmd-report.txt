@@ -1,0 +1,581 @@
+
+src/com/bps/bo/AdminLoginBO.java:12	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/bo/AdminLoginBO.java:12	Use explicit scoping instead of the default package private level
+src/com/bps/bo/AdminLoginBO.java:15	Avoid variables with short names like p
+src/com/bps/bo/AdminLoginBO.java:15	Avoid variables with short names like u
+src/com/bps/bo/AdminLoginBO.java:15	Parameter 'p' is not assigned and could be declared final
+src/com/bps/bo/AdminLoginBO.java:15	Parameter 'u' is not assigned and could be declared final
+src/com/bps/bo/AdminLoginBO.java:18	Avoid variables with short names like al
+src/com/bps/bo/AdminLoginBO.java:18	Found 'DD'-anomaly for variable 'al' (lines '18'-'19').
+src/com/bps/bo/BillPaymentBO.java:3	Avoid unused imports such as 'java.sql.Connection'
+src/com/bps/bo/BillPaymentBO.java:3	Avoid unused imports such as 'java.sql.Connection'
+src/com/bps/bo/BillPaymentBO.java:4	Avoid unused imports such as 'java.sql.PreparedStatement'
+src/com/bps/bo/BillPaymentBO.java:4	Avoid unused imports such as 'java.sql.PreparedStatement'
+src/com/bps/bo/BillPaymentBO.java:6	Avoid unused imports such as 'java.util.ArrayList'
+src/com/bps/bo/BillPaymentBO.java:6	Avoid unused imports such as 'java.util.ArrayList'
+src/com/bps/bo/BillPaymentBO.java:7	Avoid unused imports such as 'java.util.Collection'
+src/com/bps/bo/BillPaymentBO.java:7	Avoid unused imports such as 'java.util.Collection'
+src/com/bps/bo/BillPaymentBO.java:8	Avoid unused imports such as 'java.util.Iterator'
+src/com/bps/bo/BillPaymentBO.java:8	Avoid unused imports such as 'java.util.Iterator'
+src/com/bps/bo/BillPaymentBO.java:23	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/bo/BillPaymentBO.java:23	Use explicit scoping instead of the default package private level
+src/com/bps/bo/BillPaymentBO.java:25	Parameter 'cid' is not assigned and could be declared final
+src/com/bps/bo/BillPaymentBO.java:28	Local variable 'result' could be declared final
+src/com/bps/bo/BillPaymentBO.java:39	Parameter 'amount' is not assigned and could be declared final
+src/com/bps/bo/BillPaymentBO.java:39	Parameter 'pending' is not assigned and could be declared final
+src/com/bps/bo/BillPaymentBO.java:42	Found 'DD'-anomaly for variable 'flag' (lines '42'-'51').
+src/com/bps/bo/BillPaymentBO.java:42	Found 'DU'-anomaly for variable 'flag' (lines '42'-'63').
+src/com/bps/bo/BillPaymentBO.java:44	Local variable 'amountToPay' could be declared final
+src/com/bps/bo/BillPaymentBO.java:45	Local variable 'pendingAmount' could be declared final
+src/com/bps/bo/BillPaymentBO.java:65	Parameter 'cardNumber' is not assigned and could be declared final
+src/com/bps/bo/BillPaymentBO.java:66	Parameter 'cid' is not assigned and could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:7	Avoid importing anything from the 'sun.*' packages
+src/com/bps/bo/CustomerRegistrationBO.java:7	Avoid unused imports such as 'sun.util.locale.StringTokenIterator'
+src/com/bps/bo/CustomerRegistrationBO.java:7	Avoid unused imports such as 'sun.util.locale.StringTokenIterator'
+src/com/bps/bo/CustomerRegistrationBO.java:19	The class 'CustomerRegistrationBO' has a Cyclomatic Complexity of 5 (Highest = 23).
+src/com/bps/bo/CustomerRegistrationBO.java:21	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/bo/CustomerRegistrationBO.java:21	Private field 'errorList' could be made final; it is only initialized in the declaration or constructor.
+src/com/bps/bo/CustomerRegistrationBO.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/bo/CustomerRegistrationBO.java:25	Avoid excessively long variable names like customerRegistrationDao
+src/com/bps/bo/CustomerRegistrationBO.java:25	Local variable 'customerRegistrationDao' could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:26	System.out.print is used
+src/com/bps/bo/CustomerRegistrationBO.java:30	Parameter 'countryName' is not assigned and could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:32	Avoid excessively long variable names like customerRegistrationDao
+src/com/bps/bo/CustomerRegistrationBO.java:32	Local variable 'customerRegistrationDao' could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:37	Avoid excessively long variable names like customerRegistrationDao
+src/com/bps/bo/CustomerRegistrationBO.java:37	Local variable 'customerRegistrationDao' could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:38	System.out.print is used
+src/com/bps/bo/CustomerRegistrationBO.java:41	Avoid excessively long variable names like identificationDocumentName
+src/com/bps/bo/CustomerRegistrationBO.java:41	Parameter 'identificationDocumentName' is not assigned and could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:43	Avoid excessively long variable names like customerRegistrationDao
+src/com/bps/bo/CustomerRegistrationBO.java:43	Local variable 'customerRegistrationDao' could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:44	System.out.print is used
+src/com/bps/bo/CustomerRegistrationBO.java:51	Avoid really long methods.
+src/com/bps/bo/CustomerRegistrationBO.java:51	Parameter 'customerRegistrationTo' is not assigned and could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:51	The method 'validateCustomer' has a Cyclomatic Complexity of 23.
+src/com/bps/bo/CustomerRegistrationBO.java:51	The method validateCustomer() has an NPath complexity of 138240
+src/com/bps/bo/CustomerRegistrationBO.java:53	Local variable 'customerName' could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:147	These nested if statements could be combined
+src/com/bps/bo/CustomerRegistrationBO.java:164	These nested if statements could be combined
+src/com/bps/bo/CustomerRegistrationBO.java:177	These nested if statements could be combined
+src/com/bps/bo/CustomerRegistrationBO.java:190	These nested if statements could be combined
+src/com/bps/bo/CustomerRegistrationBO.java:197	These nested if statements could be combined
+src/com/bps/bo/CustomerRegistrationBO.java:210	Parameter 'errorMessage' is not assigned and could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:210	Parameter 'fieldName' is not assigned and could be declared final
+src/com/bps/bo/CustomerRegistrationBO.java:212	Found 'DD'-anomaly for variable 'error' (lines '212'-'216').
+src/com/bps/bo/CustomerRegistrationBO.java:227	Avoid variables with short names like st
+src/com/bps/bo/CustomerRegistrationBO.java:232	System.out.print is used
+src/com/bps/bo/CustomerUpdateBO.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/bo/CustomerUpdateBO.java:10	Use explicit scoping instead of the default package private level
+src/com/bps/bo/CustomerUpdateBO.java:12	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/CustomerUpdateBO.java:12	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/CustomerUpdateBO.java:12	Parameter 'cId1' is not assigned and could be declared final
+src/com/bps/bo/CustomerUpdateBO.java:14	Found 'DD'-anomaly for variable 'flag' (lines '14'-'17').
+src/com/bps/bo/CustomerUpdateBO.java:21	Avoid unnecessary comparisons in boolean expressions
+src/com/bps/bo/CustomerUpdateBO.java:23	The String literal "Please enter a valid Customer Id" appears 4 times in this file; the first occurrence is on line 23
+src/com/bps/bo/CustomerUpdateBO.java:29	Parameter 'cId1' is not assigned and could be declared final
+src/com/bps/bo/CustomerUpdateBO.java:30	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/CustomerUpdateBO.java:30	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/CustomerUpdateBO.java:33	Avoid variables with short names like to
+src/com/bps/bo/CustomerUpdateBO.java:33	Local variable 'to' could be declared final
+src/com/bps/bo/CustomerUpdateBO.java:38	Avoid variables with short names like to
+src/com/bps/bo/CustomerUpdateBO.java:38	Parameter 'to' is not assigned and could be declared final
+src/com/bps/bo/CustomerUpdateBO.java:42	Found 'DD'-anomaly for variable 'successflag' (lines '42'-'46').
+src/com/bps/bo/CustomerUpdateBO.java:47	System.out.print is used
+src/com/bps/bo/CustomerUpdateBO.java:48	Avoid unnecessary comparisons in boolean expressions
+src/com/bps/bo/CustomerUpdateBO.java:60	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/bo/CustomerUpdateBO.java:66	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/bo/VendorUpdateBO.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/bo/VendorUpdateBO.java:10	Use explicit scoping instead of the default package private level
+src/com/bps/bo/VendorUpdateBO.java:12	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/VendorUpdateBO.java:12	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/VendorUpdateBO.java:12	Parameter 'vId1' is not assigned and could be declared final
+src/com/bps/bo/VendorUpdateBO.java:14	Found 'DD'-anomaly for variable 'flag' (lines '14'-'16').
+src/com/bps/bo/VendorUpdateBO.java:17	Avoid unnecessary comparisons in boolean expressions
+src/com/bps/bo/VendorUpdateBO.java:19	The String literal "Invalid Vendor Id" appears 4 times in this file; the first occurrence is on line 19
+src/com/bps/bo/VendorUpdateBO.java:25	Parameter 'vId1' is not assigned and could be declared final
+src/com/bps/bo/VendorUpdateBO.java:26	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/VendorUpdateBO.java:26	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/bo/VendorUpdateBO.java:29	Avoid variables with short names like to
+src/com/bps/bo/VendorUpdateBO.java:29	Local variable 'to' could be declared final
+src/com/bps/bo/VendorUpdateBO.java:34	Avoid variables with short names like to
+src/com/bps/bo/VendorUpdateBO.java:34	Parameter 'to' is not assigned and could be declared final
+src/com/bps/bo/VendorUpdateBO.java:38	Found 'DD'-anomaly for variable 'successflag' (lines '38'-'41').
+src/com/bps/bo/VendorUpdateBO.java:42	Avoid unnecessary comparisons in boolean expressions
+src/com/bps/bo/VendorUpdateBO.java:54	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/bo/VendorUpdateBO.java:60	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/constants/ErrorConstants.java:3	No need to import a type that lives in the same package
+src/com/bps/constants/ErrorConstants.java:32	Avoid excessively long variable names like EMPTY_CUSTOMERNAME
+src/com/bps/constants/ErrorConstants.java:36	Avoid excessively long variable names like EMPTY_CONTACTNUMBER
+src/com/bps/constants/ErrorConstants.java:44	Avoid excessively long variable names like EMPTY_IDENTIFICATIONDOCUMENT
+src/com/bps/constants/ErrorConstants.java:46	Avoid excessively long variable names like EMPTY_DOCUMENTDETAILNUMBER
+src/com/bps/constants/ErrorConstants.java:48	Avoid excessively long variable names like EMPTY_REGISTRATIONDATE
+src/com/bps/constants/QueryConstants.java:3	Each class should declare at least one constructor
+src/com/bps/constants/QueryConstants.java:13	Avoid excessively long variable names like GET_IDENTIFICATIONDOCUMENT_NAME
+src/com/bps/constants/SuccessConstants.java:3	Each class should declare at least one constructor
+src/com/bps/controller/AdminLoginController.java:13	Avoid unused imports such as 'com.bps'
+src/com/bps/controller/AdminLoginController.java:15	Avoid unused imports such as 'com.bps.constants.ErrorConstants'
+src/com/bps/controller/AdminLoginController.java:15	Avoid unused imports such as 'com.bps.constants.ErrorConstants'
+src/com/bps/controller/AdminLoginController.java:17	Avoid unused imports such as 'com.bps.exceptions.DatabaseOperationException'
+src/com/bps/controller/AdminLoginController.java:17	Avoid unused imports such as 'com.bps.exceptions.DatabaseOperationException'
+src/com/bps/controller/AdminLoginController.java:35	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/bps/controller/AdminLoginController.java:43	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/AdminLoginController.java:43	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/AdminLoginController.java:45	Found 'DU'-anomaly for variable 'session' (lines '45'-'84').
+src/com/bps/controller/AdminLoginController.java:45	Local variable 'session' could be declared final
+src/com/bps/controller/AdminLoginController.java:47	Found 'DU'-anomaly for variable 'loginbo' (lines '47'-'84').
+src/com/bps/controller/AdminLoginController.java:47	Local variable 'loginbo' could be declared final
+src/com/bps/controller/AdminLoginController.java:51	Local variable 'user' could be declared final
+src/com/bps/controller/AdminLoginController.java:52	Local variable 'pass' could be declared final
+src/com/bps/controller/AdminLoginController.java:57	Avoid unused local variables such as 'adminto'.
+src/com/bps/controller/AdminLoginController.java:57	Found 'DU'-anomaly for variable 'adminto' (lines '57'-'84').
+src/com/bps/controller/AdminLoginController.java:57	Local variable 'adminto' could be declared final
+src/com/bps/controller/AdminLoginController.java:61	Avoid variables with short names like rd
+src/com/bps/controller/AdminLoginController.java:65	Avoid empty if statements
+src/com/bps/controller/AdminLoginController.java:79	Avoid empty catch blocks
+src/com/bps/controller/BillPaymentController.java:4	Avoid unused imports such as 'java.io.PrintWriter'
+src/com/bps/controller/BillPaymentController.java:4	Avoid unused imports such as 'java.io.PrintWriter'
+src/com/bps/controller/BillPaymentController.java:31	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/bps/controller/BillPaymentController.java:40	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/BillPaymentController.java:41	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/BillPaymentController.java:42	Local variable 'choice' could be declared final
+src/com/bps/controller/BillPaymentController.java:46	Local variable 'bpBO' could be declared final
+src/com/bps/controller/BillPaymentController.java:47	Local variable 'session' could be declared final
+src/com/bps/controller/BillPaymentController.java:50	Local variable 'bpToList' could be declared final
+src/com/bps/controller/BillPaymentController.java:52	System.out.print is used
+src/com/bps/controller/BillPaymentController.java:56	System.out.print is used
+src/com/bps/controller/BillPaymentController.java:58	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/BillPaymentController.java:61	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/BillPaymentController.java:66	Local variable 'venType' could be declared final
+src/com/bps/controller/BillPaymentController.java:67	System.out.print is used
+src/com/bps/controller/BillPaymentController.java:72	System.out.print is used
+src/com/bps/controller/BillPaymentController.java:77	System.out.print is used
+src/com/bps/controller/BillPaymentController.java:79	Avoid empty catch blocks
+src/com/bps/controller/BillPaymentController.java:91	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/BillPaymentController.java:92	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/BillPaymentController.java:98	Found 'DU'-anomaly for variable 'bpTO' (lines '98'-'188').
+src/com/bps/controller/BillPaymentController.java:104	Found 'DU'-anomaly for variable 'vendor_Type' (lines '104'-'188').
+src/com/bps/controller/BillPaymentController.java:105	Found 'DU'-anomaly for variable 'vendor_Name' (lines '105'-'188').
+src/com/bps/controller/BillPaymentController.java:108	Found 'DU'-anomaly for variable 'payment_Date' (lines '108'-'188').
+src/com/bps/controller/BillPaymentController.java:110	Found 'DU'-anomaly for variable 'amount_To_Payy' (lines '110'-'188').
+src/com/bps/controller/BillPaymentController.java:111	Found 'DU'-anomaly for variable 'pending_Amountt' (lines '111'-'188').
+src/com/bps/controller/BillPaymentController.java:112	Found 'DU'-anomaly for variable 'credit_Card_Type' (lines '112'-'188').
+src/com/bps/controller/BillPaymentController.java:113	Found 'DU'-anomaly for variable 'card_Number' (lines '113'-'188').
+src/com/bps/controller/BillPaymentController.java:114	Avoid excessively long variable names like confirm_Card_Number
+src/com/bps/controller/BillPaymentController.java:114	Found 'DU'-anomaly for variable 'confirm_Card_Number' (lines '114'-'188').
+src/com/bps/controller/BillPaymentController.java:116	Avoid excessively long variable names like credit_Card_ValidityMM
+src/com/bps/controller/BillPaymentController.java:117	Avoid excessively long variable names like creditCard_ValidityMM
+src/com/bps/controller/BillPaymentController.java:117	Found 'DU'-anomaly for variable 'creditCard_ValidityMM' (lines '117'-'188').
+src/com/bps/controller/BillPaymentController.java:119	Avoid excessively long variable names like credit_Card_ValidityYY
+src/com/bps/controller/BillPaymentController.java:120	Avoid excessively long variable names like creditCard_ValidityYY
+src/com/bps/controller/BillPaymentController.java:120	Found 'DU'-anomaly for variable 'creditCard_ValidityYY' (lines '120'-'188').
+src/com/bps/controller/BillPaymentController.java:123	Found 'DU'-anomaly for variable 'cVv' (lines '123'-'188').
+src/com/bps/controller/BillPaymentController.java:127	These nested if statements could be combined
+src/com/bps/controller/BillPaymentController.java:129	These nested if statements could be combined
+src/com/bps/controller/BillPaymentController.java:132	Deeply nested if..then statements are hard to read
+src/com/bps/controller/BillPaymentController.java:132	These nested if statements could be combined
+src/com/bps/controller/BillPaymentController.java:149	Avoid variables with short names like rd
+src/com/bps/controller/BillPaymentController.java:149	Found 'DD'-anomaly for variable 'rd' (lines '149'-'157').
+src/com/bps/controller/BillPaymentController.java:182	Avoid empty catch blocks
+src/com/bps/controller/BillPaymentController.java:185	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/CustomerRegistrationController.java:30	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/bps/controller/CustomerRegistrationController.java:38	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:38	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:40	Avoid excessively long variable names like customerRegistrationBo
+src/com/bps/controller/CustomerRegistrationController.java:40	Found 'DU'-anomaly for variable 'customerRegistrationBo' (lines '40'-'109').
+src/com/bps/controller/CustomerRegistrationController.java:40	Local variable 'customerRegistrationBo' could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:41	Found 'DU'-anomaly for variable 'session' (lines '41'-'109').
+src/com/bps/controller/CustomerRegistrationController.java:41	Local variable 'session' could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:43	Local variable 'choice' could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:45	Local variable 'countryList' could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:46	System.out.print is used
+src/com/bps/controller/CustomerRegistrationController.java:50	Avoid excessively long variable names like identificationDocumentList
+src/com/bps/controller/CustomerRegistrationController.java:50	Local variable 'identificationDocumentList' could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:51	System.out.print is used
+src/com/bps/controller/CustomerRegistrationController.java:65	Avoid instantiating String objects; this is usually unnecessary.
+src/com/bps/controller/CustomerRegistrationController.java:69	Prefer StringBuffer over += for concatenating strings
+src/com/bps/controller/CustomerRegistrationController.java:77	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/CustomerRegistrationController.java:82	Avoid excessively long variable names like identificationDocumentName
+src/com/bps/controller/CustomerRegistrationController.java:87	System.out.print is used
+src/com/bps/controller/CustomerRegistrationController.java:91	Avoid instantiating String objects; this is usually unnecessary.
+src/com/bps/controller/CustomerRegistrationController.java:95	Prefer StringBuffer over += for concatenating strings
+src/com/bps/controller/CustomerRegistrationController.java:103	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/CustomerRegistrationController.java:114	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:114	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/CustomerRegistrationController.java:123	Avoid excessively long variable names like identificationDocument
+src/com/bps/controller/CustomerRegistrationController.java:125	Avoid excessively long variable names like documemtDetailNumber
+src/com/bps/controller/CustomerRegistrationController.java:135	System.out.print is used
+src/com/bps/controller/CustomerRegistrationController.java:138	Found 'DD'-anomaly for variable 'dispatcher' (lines '138'-'147').
+src/com/bps/controller/CustomerRegistrationController.java:148	System.out.print is used
+src/com/bps/controller/CustomerUpdateController.java:25	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/bps/controller/CustomerUpdateController.java:34	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/CustomerUpdateController.java:35	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/CustomerUpdateController.java:36	Found 'DD'-anomaly for variable 'customerId' (lines '36'-'41').
+src/com/bps/controller/CustomerUpdateController.java:37	Found 'DU'-anomaly for variable 'session' (lines '37'-'76').
+src/com/bps/controller/CustomerUpdateController.java:37	Local variable 'session' could be declared final
+src/com/bps/controller/CustomerUpdateController.java:42	The String literal "customerId" appears 4 times in this file; the first occurrence is on line 42
+src/com/bps/controller/CustomerUpdateController.java:49	Avoid variables with short names like bo
+src/com/bps/controller/CustomerUpdateController.java:49	Local variable 'bo' could be declared final
+src/com/bps/controller/CustomerUpdateController.java:51	Avoid variables with short names like to
+src/com/bps/controller/CustomerUpdateController.java:51	Found 'DD'-anomaly for variable 'to' (lines '51'-'52').
+src/com/bps/controller/CustomerUpdateController.java:57	Avoid variables with short names like rd
+src/com/bps/controller/CustomerUpdateController.java:57	Local variable 'rd' could be declared final
+src/com/bps/controller/CustomerUpdateController.java:68	Avoid variables with short names like rd
+src/com/bps/controller/CustomerUpdateController.java:68	Local variable 'rd' could be declared final
+src/com/bps/controller/CustomerUpdateController.java:73	Avoid variables with short names like rd
+src/com/bps/controller/CustomerUpdateController.java:73	Local variable 'rd' could be declared final
+src/com/bps/controller/CustomerUpdateController.java:82	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/CustomerUpdateController.java:83	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/CustomerUpdateController.java:95	This statement may have some unnecessary parentheses
+src/com/bps/controller/CustomerUpdateController.java:101	This statement may have some unnecessary parentheses
+src/com/bps/controller/CustomerUpdateController.java:105	System.out.print is used
+src/com/bps/controller/CustomerUpdateController.java:107	System.out.print is used
+src/com/bps/controller/CustomerUpdateController.java:109	System.out.print is used
+src/com/bps/controller/CustomerUpdateController.java:114	System.out.print is used
+src/com/bps/controller/CustomerUpdateController.java:119	System.out.print is used
+src/com/bps/controller/CustomerUpdateController.java:126	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/controller/CustomerUpdateController.java:139	Avoid using exceptions as flow control.
+src/com/bps/controller/CustomerUpdateController.java:149	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/RegisterVendorController.java:31	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/bps/controller/RegisterVendorController.java:41	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/RegisterVendorController.java:42	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/RegisterVendorController.java:44	Local variable 'registerVendorBo' could be declared final
+src/com/bps/controller/RegisterVendorController.java:45	Local variable 'session' could be declared final
+src/com/bps/controller/RegisterVendorController.java:47	Local variable 'choice' could be declared final
+src/com/bps/controller/RegisterVendorController.java:49	Local variable 'countryList' could be declared final
+src/com/bps/controller/RegisterVendorController.java:50	System.out.print is used
+src/com/bps/controller/RegisterVendorController.java:52	Local variable 'regNoList' could be declared final
+src/com/bps/controller/RegisterVendorController.java:53	System.out.print is used
+src/com/bps/controller/RegisterVendorController.java:69	Avoid instantiating String objects; this is usually unnecessary.
+src/com/bps/controller/RegisterVendorController.java:73	Prefer StringBuffer over += for concatenating strings
+src/com/bps/controller/RegisterVendorController.java:86	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/controller/RegisterVendorController.java:91	System.out.print is used
+src/com/bps/controller/RegisterVendorController.java:92	Found 'DD'-anomaly for variable 'companyRegno' (lines '92'-'94').
+src/com/bps/controller/RegisterVendorController.java:96	System.out.print is used
+src/com/bps/controller/RegisterVendorController.java:127	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/RegisterVendorController.java:128	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/RegisterVendorController.java:131	System.out.print is used
+src/com/bps/controller/RegisterVendorController.java:150	Found 'DD'-anomaly for variable 'state' (lines '150'-'153').
+src/com/bps/controller/RegisterVendorController.java:151	Found 'DD'-anomaly for variable 'dispatcher' (lines '151'-'160').
+src/com/bps/controller/VendorUpdateController.java:25	Avoid unnecessary constructors - the compiler will generate these for you
+src/com/bps/controller/VendorUpdateController.java:34	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/VendorUpdateController.java:35	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/VendorUpdateController.java:36	Found 'DD'-anomaly for variable 'vendorId' (lines '36'-'40').
+src/com/bps/controller/VendorUpdateController.java:37	Found 'DU'-anomaly for variable 'session' (lines '37'-'74').
+src/com/bps/controller/VendorUpdateController.java:37	Local variable 'session' could be declared final
+src/com/bps/controller/VendorUpdateController.java:40	Found 'DU'-anomaly for variable 'vendorId' (lines '40'-'74').
+src/com/bps/controller/VendorUpdateController.java:40	The String literal "vendorId" appears 4 times in this file; the first occurrence is on line 40
+src/com/bps/controller/VendorUpdateController.java:44	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/controller/VendorUpdateController.java:47	Avoid variables with short names like bo
+src/com/bps/controller/VendorUpdateController.java:47	Local variable 'bo' could be declared final
+src/com/bps/controller/VendorUpdateController.java:49	Avoid variables with short names like to
+src/com/bps/controller/VendorUpdateController.java:55	Avoid variables with short names like rd
+src/com/bps/controller/VendorUpdateController.java:55	Local variable 'rd' could be declared final
+src/com/bps/controller/VendorUpdateController.java:64	Avoid using exceptions as flow control.
+src/com/bps/controller/VendorUpdateController.java:66	Avoid variables with short names like rd
+src/com/bps/controller/VendorUpdateController.java:66	Local variable 'rd' could be declared final
+src/com/bps/controller/VendorUpdateController.java:71	Avoid variables with short names like rd
+src/com/bps/controller/VendorUpdateController.java:71	Local variable 'rd' could be declared final
+src/com/bps/controller/VendorUpdateController.java:80	Parameter 'request' is not assigned and could be declared final
+src/com/bps/controller/VendorUpdateController.java:81	Parameter 'response' is not assigned and could be declared final
+src/com/bps/controller/VendorUpdateController.java:105	New exception is thrown in catch block, original stack trace may be lost
+src/com/bps/controller/VendorUpdateController.java:127	Avoid using exceptions as flow control.
+src/com/bps/dao/AdminLoginDAO.java:5	Avoid unused imports such as 'java.util.concurrent.Executor'
+src/com/bps/dao/AdminLoginDAO.java:5	Avoid unused imports such as 'java.util.concurrent.Executor'
+src/com/bps/dao/AdminLoginDAO.java:11	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/AdminLoginDAO.java:11	Use explicit scoping instead of the default package private level
+src/com/bps/dao/AdminLoginDAO.java:13	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/AdminLoginDAO.java:13	Use explicit scoping instead of the default package private level
+src/com/bps/dao/AdminLoginDAO.java:15	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/bps/dao/AdminLoginDAO.java:15	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/bps/dao/AdminLoginDAO.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/AdminLoginDAO.java:15	Use explicit scoping instead of the default package private level
+src/com/bps/dao/AdminLoginDAO.java:17	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/bps/dao/AdminLoginDAO.java:17	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/bps/dao/AdminLoginDAO.java:19	Found 'DD'-anomaly for variable 'pst' (lines '19'-'23').
+src/com/bps/dao/AdminLoginDAO.java:22	Avoid variables with short names like q
+src/com/bps/dao/AdminLoginDAO.java:22	Local variable 'q' could be declared final
+src/com/bps/dao/AdminLoginDAO.java:31	Avoid empty catch blocks
+src/com/bps/dao/AdminLoginDAO.java:39	Avoid empty catch blocks
+src/com/bps/dao/BillPaymentDAO.java:16	Avoid unused imports such as 'com.mysql.jdbc.PreparedStatement'
+src/com/bps/dao/BillPaymentDAO.java:16	Avoid unused imports such as 'com.mysql.jdbc.PreparedStatement'
+src/com/bps/dao/BillPaymentDAO.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/BillPaymentDAO.java:22	Use explicit scoping instead of the default package private level
+src/com/bps/dao/BillPaymentDAO.java:23	Private field 'vendorType' could be made final; it is only initialized in the declaration or constructor.
+src/com/bps/dao/BillPaymentDAO.java:24	Private field 'vendorName' could be made final; it is only initialized in the declaration or constructor.
+src/com/bps/dao/BillPaymentDAO.java:26	Parameter 'cid' is not assigned and could be declared final
+src/com/bps/dao/BillPaymentDAO.java:29	Found 'DD'-anomaly for variable 'response' (lines '29'-'40').
+src/com/bps/dao/BillPaymentDAO.java:29	Found 'DU'-anomaly for variable 'response' (lines '29'-'65').
+src/com/bps/dao/BillPaymentDAO.java:30	Found 'DD'-anomaly for variable 'statement' (lines '30'-'36').
+src/com/bps/dao/BillPaymentDAO.java:31	Found 'DD'-anomaly for variable 'rset' (lines '31'-'38').
+src/com/bps/dao/BillPaymentDAO.java:35	Local variable 'query' could be declared final
+src/com/bps/dao/BillPaymentDAO.java:40	Found 'DU'-anomaly for variable 'response' (lines '40'-'65').
+src/com/bps/dao/BillPaymentDAO.java:48	Avoid empty catch blocks
+src/com/bps/dao/BillPaymentDAO.java:50	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/BillPaymentDAO.java:67	Avoid variables with short names like bp
+src/com/bps/dao/BillPaymentDAO.java:67	Parameter 'bp' is not assigned and could be declared final
+src/com/bps/dao/BillPaymentDAO.java:74	Found 'DD'-anomaly for variable 'pst' (lines '74'-'83').
+src/com/bps/dao/BillPaymentDAO.java:75	Found 'DD'-anomaly for variable 'pst2' (lines '75'-'107').
+src/com/bps/dao/BillPaymentDAO.java:76	Ensure that resources like this ResultSet object are closed after use
+src/com/bps/dao/BillPaymentDAO.java:76	Found 'DD'-anomaly for variable 'rset' (lines '76'-'85').
+src/com/bps/dao/BillPaymentDAO.java:78	Local variable 'amountpaid' could be declared final
+src/com/bps/dao/BillPaymentDAO.java:79	Found 'DD'-anomaly for variable 'balance' (lines '79'-'89').
+src/com/bps/dao/BillPaymentDAO.java:82	Local variable 'query' could be declared final
+src/com/bps/dao/BillPaymentDAO.java:89	Found 'DD'-anomaly for variable 'balance' (lines '89'-'89').
+src/com/bps/dao/BillPaymentDAO.java:93	Local variable 'newbalance' could be declared final
+src/com/bps/dao/BillPaymentDAO.java:95	Local variable 'query_up' could be declared final
+src/com/bps/dao/BillPaymentDAO.java:114	Avoid empty catch blocks
+src/com/bps/dao/BillPaymentDAO.java:131	Parameter 'cardNumber' is not assigned and could be declared final
+src/com/bps/dao/BillPaymentDAO.java:131	Parameter 'cid' is not assigned and could be declared final
+src/com/bps/dao/BillPaymentDAO.java:134	Ensure that resources like this Connection object are closed after use
+src/com/bps/dao/BillPaymentDAO.java:135	Avoid variables with short names like p
+src/com/bps/dao/BillPaymentDAO.java:138	Avoid variables with short names like rs
+src/com/bps/dao/BillPaymentDAO.java:138	Ensure that resources like this ResultSet object are closed after use
+src/com/bps/dao/BillPaymentDAO.java:141	Avoid variables with short names like s
+src/com/bps/dao/BillPaymentDAO.java:143	A method should have only one exit point, and that should be the last statement in the method
+src/com/bps/dao/BillPaymentDAO.java:150	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/BillPaymentDAO.java:155	Parameter 'type' is not assigned and could be declared final
+src/com/bps/dao/BillPaymentDAO.java:158	Ensure that resources like this Connection object are closed after use
+src/com/bps/dao/BillPaymentDAO.java:162	Ensure that resources like this ResultSet object are closed after use
+src/com/bps/dao/BillPaymentDAO.java:167	Avoid empty catch blocks
+src/com/bps/dao/BillPaymentDAO.java:168	Avoid empty catch blocks
+src/com/bps/dao/BillPaymentDAO.java:188	Avoid variables with short names like rs
+src/com/bps/dao/BillPaymentDAO.java:194	Avoid empty catch blocks
+src/com/bps/dao/BillPaymentDAO.java:231	Found 'DU'-anomaly for variable 'bpList' (lines '231'-'258').
+src/com/bps/dao/BillPaymentDAO.java:243	Avoid instantiating new objects inside loops
+src/com/bps/dao/BillPaymentDAO.java:263	Found 'DD'-anomaly for variable 'conn' (lines '263'-'264').
+src/com/bps/dao/BillPaymentDAO.java:265	System.out.print is used
+src/com/bps/dao/BillPaymentDAO.java:269	System.out.print is used
+src/com/bps/dao/BillPaymentDAO.java:275	Avoid instantiating new objects inside loops
+src/com/bps/dao/CustomerRegistrationDAO.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerRegistrationDAO.java:20	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerRegistrationDAO.java:21	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerRegistrationDAO.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerRegistrationDAO.java:25	Local variable 'countryList' could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:31	Local variable 'countryName' could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:36	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/CustomerRegistrationDAO.java:42	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/CustomerRegistrationDAO.java:51	Parameter 'countryName' is not assigned and could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:53	Found 'DU'-anomaly for variable 'stateList' (lines '53'-'78').
+src/com/bps/dao/CustomerRegistrationDAO.java:53	Local variable 'stateList' could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:62	Local variable 'countryId' could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:63	Local variable 'state' could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:64	Avoid instantiating new objects inside loops
+src/com/bps/dao/CustomerRegistrationDAO.java:69	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/CustomerRegistrationDAO.java:76	System.out.print is used
+src/com/bps/dao/CustomerRegistrationDAO.java:81	Avoid excessively long variable names like identificationDocumentList
+src/com/bps/dao/CustomerRegistrationDAO.java:87	Avoid excessively long variable names like identificationDocumentName
+src/com/bps/dao/CustomerRegistrationDAO.java:93	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/CustomerRegistrationDAO.java:99	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/CustomerRegistrationDAO.java:106	Avoid excessively long variable names like identificationDocumentName
+src/com/bps/dao/CustomerRegistrationDAO.java:106	Parameter 'identificationDocumentName' is not assigned and could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:109	Avoid instantiating String objects; this is usually unnecessary.
+src/com/bps/dao/CustomerRegistrationDAO.java:109	Found 'DD'-anomaly for variable 'prefixFormat' (lines '109'-'119').
+src/com/bps/dao/CustomerRegistrationDAO.java:109	Found 'DU'-anomaly for variable 'prefixFormat' (lines '109'-'134').
+src/com/bps/dao/CustomerRegistrationDAO.java:119	Found 'DD'-anomaly for variable 'prefixFormat' (lines '119'-'119').
+src/com/bps/dao/CustomerRegistrationDAO.java:119	Found 'DU'-anomaly for variable 'prefixFormat' (lines '119'-'134').
+src/com/bps/dao/CustomerRegistrationDAO.java:125	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/CustomerRegistrationDAO.java:132	System.out.print is used
+src/com/bps/dao/CustomerRegistrationDAO.java:164	Avoid excessively long variable names like customerRegistrationTo
+src/com/bps/dao/CustomerRegistrationDAO.java:164	Parameter 'customerRegistrationTo' is not assigned and could be declared final
+src/com/bps/dao/CustomerRegistrationDAO.java:166	Found 'DU'-anomaly for variable 'result' (lines '166'-'218').
+src/com/bps/dao/CustomerRegistrationDAO.java:174	Avoid excessively long variable names like identificationDocument
+src/com/bps/dao/CustomerRegistrationDAO.java:199	System.out.print is used
+src/com/bps/dao/CustomerRegistrationDAO.java:201	System.out.print is used
+src/com/bps/dao/CustomerRegistrationDAO.java:205	System.out.print is used
+src/com/bps/dao/CustomerRegistrationDAO.java:208	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/CustomerUpdateDAO.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerUpdateDAO.java:15	Use explicit scoping instead of the default package private level
+src/com/bps/dao/CustomerUpdateDAO.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerUpdateDAO.java:16	Use explicit scoping instead of the default package private level
+src/com/bps/dao/CustomerUpdateDAO.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerUpdateDAO.java:18	Use explicit scoping instead of the default package private level
+src/com/bps/dao/CustomerUpdateDAO.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/CustomerUpdateDAO.java:19	Use explicit scoping instead of the default package private level
+src/com/bps/dao/CustomerUpdateDAO.java:21	Use explicit scoping instead of the default package private level
+src/com/bps/dao/CustomerUpdateDAO.java:32	Parameter 'cId' is not assigned and could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:33	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/CustomerUpdateDAO.java:33	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/CustomerUpdateDAO.java:35	Found 'DD'-anomaly for variable 'flag' (lines '35'-'59').
+src/com/bps/dao/CustomerUpdateDAO.java:35	Found 'DU'-anomaly for variable 'flag' (lines '35'-'74').
+src/com/bps/dao/CustomerUpdateDAO.java:39	Found 'DD'-anomaly for variable 'count' (lines '39'-'55').
+src/com/bps/dao/CustomerUpdateDAO.java:44	Avoid variables with short names like q1
+src/com/bps/dao/CustomerUpdateDAO.java:44	Local variable 'q1' could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:47	Local variable 'pst1' could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:55	Found 'DD'-anomaly for variable 'count' (lines '55'-'55').
+src/com/bps/dao/CustomerUpdateDAO.java:59	Found 'DU'-anomaly for variable 'flag' (lines '59'-'74').
+src/com/bps/dao/CustomerUpdateDAO.java:76	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/CustomerUpdateDAO.java:76	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/CustomerUpdateDAO.java:76	Parameter 'cId' is not assigned and could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:79	Avoid variables with short names like to
+src/com/bps/dao/CustomerUpdateDAO.java:79	Local variable 'to' could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:84	Avoid variables with short names like q2
+src/com/bps/dao/CustomerUpdateDAO.java:84	Local variable 'q2' could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:86	Local variable 'pst2' could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:128	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/CustomerUpdateDAO.java:209	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/CustomerUpdateDAO.java:209	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/CustomerUpdateDAO.java:209	Avoid variables with short names like to
+src/com/bps/dao/CustomerUpdateDAO.java:209	Parameter 'to' is not assigned and could be declared final
+src/com/bps/dao/CustomerUpdateDAO.java:212	Found 'DD'-anomaly for variable 'flag' (lines '212'-'247').
+src/com/bps/dao/CustomerUpdateDAO.java:212	Found 'DU'-anomaly for variable 'flag' (lines '212'-'257').
+src/com/bps/dao/CustomerUpdateDAO.java:216	System.out.print is used
+src/com/bps/dao/CustomerUpdateDAO.java:230	System.out.print is used
+src/com/bps/dao/CustomerUpdateDAO.java:238	System.out.print is used
+src/com/bps/dao/CustomerUpdateDAO.java:247	Found 'DU'-anomaly for variable 'flag' (lines '247'-'257').
+src/com/bps/dao/CustomerUpdateDAO.java:255	System.out.print is used
+src/com/bps/dao/RegisterVendorDAO.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/RegisterVendorDAO.java:20	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/RegisterVendorDAO.java:21	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/RegisterVendorDAO.java:22	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/RegisterVendorDAO.java:25	Local variable 'countryList' could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:31	Local variable 'countryName' could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:36	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/RegisterVendorDAO.java:42	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/RegisterVendorDAO.java:49	Local variable 'regNoList' could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:55	Local variable 'companyRegNo' could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:60	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/RegisterVendorDAO.java:66	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/RegisterVendorDAO.java:84	Parameter 'countryName' is not assigned and could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:86	Found 'DU'-anomaly for variable 'stateList' (lines '86'-'110').
+src/com/bps/dao/RegisterVendorDAO.java:86	Local variable 'stateList' could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:97	Avoid instantiating new objects inside loops
+src/com/bps/dao/RegisterVendorDAO.java:102	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/RegisterVendorDAO.java:112	Parameter 'companyRegno' is not assigned and could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:120	Found 'DD'-anomaly for variable 'vendorName' (lines '120'-'123').
+src/com/bps/dao/RegisterVendorDAO.java:120	Found 'DD'-anomaly for variable 'vendorType' (lines '120'-'124').
+src/com/bps/dao/RegisterVendorDAO.java:123	Found 'DD'-anomaly for variable 'vendorName' (lines '123'-'123').
+src/com/bps/dao/RegisterVendorDAO.java:124	Found 'DD'-anomaly for variable 'vendorType' (lines '124'-'124').
+src/com/bps/dao/RegisterVendorDAO.java:128	Found 'DU'-anomaly for variable 'vendorTo' (lines '128'-'142').
+src/com/bps/dao/RegisterVendorDAO.java:131	System.out.print is used
+src/com/bps/dao/RegisterVendorDAO.java:133	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/RegisterVendorDAO.java:144	Parameter 'country' is not assigned and could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:144	Parameter 'country_id' is not assigned and could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:146	Avoid unused local variables such as 'stateList'.
+src/com/bps/dao/RegisterVendorDAO.java:146	Found 'DU'-anomaly for variable 'stateList' (lines '146'-'170').
+src/com/bps/dao/RegisterVendorDAO.java:147	Found 'DD'-anomaly for variable 'state' (lines '147'-'156').
+src/com/bps/dao/RegisterVendorDAO.java:147	Found 'DU'-anomaly for variable 'state' (lines '147'-'170').
+src/com/bps/dao/RegisterVendorDAO.java:156	Found 'DD'-anomaly for variable 'state' (lines '156'-'156').
+src/com/bps/dao/RegisterVendorDAO.java:156	Found 'DU'-anomaly for variable 'state' (lines '156'-'170').
+src/com/bps/dao/RegisterVendorDAO.java:161	A throw statement in a finally block makes the control flow hard to understand.
+src/com/bps/dao/RegisterVendorDAO.java:172	Parameter 'venRegTo' is not assigned and could be declared final
+src/com/bps/dao/RegisterVendorDAO.java:192	System.out.print is used
+src/com/bps/dao/RegisterVendorDAO.java:213	System.out.print is used
+src/com/bps/dao/VendorUpdateDAO.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/VendorUpdateDAO.java:15	Use explicit scoping instead of the default package private level
+src/com/bps/dao/VendorUpdateDAO.java:16	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/VendorUpdateDAO.java:16	Use explicit scoping instead of the default package private level
+src/com/bps/dao/VendorUpdateDAO.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/VendorUpdateDAO.java:18	Use explicit scoping instead of the default package private level
+src/com/bps/dao/VendorUpdateDAO.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/dao/VendorUpdateDAO.java:19	Use explicit scoping instead of the default package private level
+src/com/bps/dao/VendorUpdateDAO.java:21	Use explicit scoping instead of the default package private level
+src/com/bps/dao/VendorUpdateDAO.java:32	Parameter 'vId' is not assigned and could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:33	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/VendorUpdateDAO.java:33	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/VendorUpdateDAO.java:35	Found 'DD'-anomaly for variable 'flag' (lines '35'-'58').
+src/com/bps/dao/VendorUpdateDAO.java:35	Found 'DU'-anomaly for variable 'flag' (lines '35'-'73').
+src/com/bps/dao/VendorUpdateDAO.java:39	Found 'DD'-anomaly for variable 'count' (lines '39'-'54').
+src/com/bps/dao/VendorUpdateDAO.java:43	Avoid variables with short names like q1
+src/com/bps/dao/VendorUpdateDAO.java:43	Local variable 'q1' could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:46	Local variable 'pst1' could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:54	Found 'DD'-anomaly for variable 'count' (lines '54'-'54').
+src/com/bps/dao/VendorUpdateDAO.java:58	Found 'DU'-anomaly for variable 'flag' (lines '58'-'73').
+src/com/bps/dao/VendorUpdateDAO.java:75	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/VendorUpdateDAO.java:75	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/VendorUpdateDAO.java:75	Parameter 'vId' is not assigned and could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:78	Avoid variables with short names like to
+src/com/bps/dao/VendorUpdateDAO.java:78	Local variable 'to' could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:83	Avoid variables with short names like q2
+src/com/bps/dao/VendorUpdateDAO.java:83	Local variable 'q2' could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:85	Local variable 'pst2' could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:128	Avoid printStackTrace(); use a logger call instead.
+src/com/bps/dao/VendorUpdateDAO.java:208	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/VendorUpdateDAO.java:208	A method/constructor shouldn't explicitly throw java.lang.Exception
+src/com/bps/dao/VendorUpdateDAO.java:208	Avoid variables with short names like to
+src/com/bps/dao/VendorUpdateDAO.java:208	Parameter 'to' is not assigned and could be declared final
+src/com/bps/dao/VendorUpdateDAO.java:211	Found 'DD'-anomaly for variable 'flag' (lines '211'-'248').
+src/com/bps/dao/VendorUpdateDAO.java:211	Found 'DU'-anomaly for variable 'flag' (lines '211'-'257').
+src/com/bps/dao/VendorUpdateDAO.java:243	System.out.print is used
+src/com/bps/dao/VendorUpdateDAO.java:245	System.out.print is used
+src/com/bps/dao/VendorUpdateDAO.java:248	Found 'DU'-anomaly for variable 'flag' (lines '248'-'257').
+src/com/bps/dbutil/DbUtil.java:10	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/bps/dbutil/DbUtil.java:14	Local variable 'driver' could be declared final
+src/com/bps/exceptions/ApplicationException.java:8	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/exceptions/ApplicationException.java:15	It is a good practice to call super() in a constructor
+src/com/bps/exceptions/BusinessException.java:10	It is a good practice to call super() in a constructor
+src/com/bps/exceptions/BusinessException.java:14	Parameter 'message' is not assigned and could be declared final
+src/com/bps/exceptions/BusinessException.java:32	Parameter 'errorList' is not assigned and could be declared final
+src/com/bps/exceptions/DatabaseOperationException.java:9	Parameter 'cause' is not assigned and could be declared final
+src/com/bps/exceptions/DatabaseOperationException.java:17	Parameter 'throwable' is not assigned and could be declared final
+src/com/bps/to/AdminTO.java:4	Parameter 'password' is not assigned and could be declared final
+src/com/bps/to/AdminTO.java:4	Parameter 'username' is not assigned and could be declared final
+src/com/bps/to/AdminTO.java:14	Parameter 'username' is not assigned and could be declared final
+src/com/bps/to/AdminTO.java:20	Parameter 'password' is not assigned and could be declared final
+src/com/bps/to/AmountTO.java:10	Parameter 'amount' is not assigned and could be declared final
+src/com/bps/to/AmountTO.java:18	Parameter 'venName' is not assigned and could be declared final
+src/com/bps/to/AmountTO.java:24	Parameter 'amount' is not assigned and could be declared final
+src/com/bps/to/AmountTO.java:24	Parameter 'name' is not assigned and could be declared final
+src/com/bps/to/BillPaymentTO.java:3	Too many fields
+src/com/bps/to/BillPaymentTO.java:16	Avoid excessively long variable names like creditCardValidityMM
+src/com/bps/to/BillPaymentTO.java:17	Avoid excessively long variable names like creditCardValidityYY
+src/com/bps/to/BillPaymentTO.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/to/BillPaymentTO.java:27	Parameter 'customerid' is not assigned and could be declared final
+src/com/bps/to/BillPaymentTO.java:35	Parameter 'customerID' is not assigned and could be declared final
+src/com/bps/to/BillPaymentTO.java:43	Parameter 'vendorType' is not assigned and could be declared final
+src/com/bps/to/BillPaymentTO.java:51	Parameter 'vendorName' is not assigned and could be declared final
+src/com/bps/to/BillPaymentTO.java:59	Parameter 'pendingAmount' is not assigned and could be declared final
+src/com/bps/to/BillPaymentTO.java:123	Avoid excessively long variable names like creditCardValidityMM
+src/com/bps/to/BillPaymentTO.java:131	Avoid excessively long variable names like creditCardValidityYY
+src/com/bps/to/CustomerRegistrationTo.java:12	Avoid excessively long variable names like identificationDocument
+src/com/bps/to/CustomerRegistrationTo.java:14	Avoid excessively long variable names like documemtDetailNumber
+src/com/bps/to/CustomerRegistrationTo.java:26	Avoid really long parameter lists.
+src/com/bps/to/CustomerRegistrationTo.java:26	Parameter 'address' is not assigned and could be declared final
+src/com/bps/to/CustomerRegistrationTo.java:26	Parameter 'customerName' is not assigned and could be declared final
+src/com/bps/to/CustomerRegistrationTo.java:27	Parameter 'contactNumber' is not assigned and could be declared final
+src/com/bps/to/CustomerRegistrationTo.java:27	Parameter 'country' is not assigned and could be declared final
+src/com/bps/to/CustomerRegistrationTo.java:27	Parameter 'mailId' is not assigned and could be declared final
+src/com/bps/to/CustomerRegistrationTo.java:28	Avoid excessively long variable names like documemtDetailNumber
+src/com/bps/to/CustomerRegistrationTo.java:28	Avoid excessively long variable names like identificationDocument
+src/com/bps/to/CustomerRegistrationTo.java:108	Avoid excessively long variable names like identificationDocument
+src/com/bps/to/CustomerUpdateTo.java:3	Avoid unused imports such as 'java.util.Date'
+src/com/bps/to/CustomerUpdateTo.java:3	Avoid unused imports such as 'java.util.Date'
+src/com/bps/to/CustomerUpdateTo.java:18	Variables should start with a lowercase character
+src/com/bps/to/CustomerUpdateTo.java:33	Parameter 'customerId' is not assigned and could be declared final
+src/com/bps/to/CustomerUpdateTo.java:39	Parameter 'customerName' is not assigned and could be declared final
+src/com/bps/to/CustomerUpdateTo.java:45	Parameter 'vendorType' is not assigned and could be declared final
+src/com/bps/to/CustomerUpdateTo.java:51	Parameter 'countryName' is not assigned and could be declared final
+src/com/bps/to/CustomerUpdateTo.java:57	Parameter 'countryId' is not assigned and could be declared final
+src/com/bps/to/PrefixFormatTO.java:5	Avoid excessively long variable names like identificationDocument
+src/com/bps/to/PrefixFormatTO.java:10	Avoid excessively long variable names like identificationDocument
+src/com/bps/to/PrefixFormatTO.java:10	Parameter 'identificationDocument' is not assigned and could be declared final
+src/com/bps/to/PrefixFormatTO.java:10	Parameter 'prefixformat' is not assigned and could be declared final
+src/com/bps/to/PrefixFormatTO.java:18	Avoid excessively long variable names like identificationDocument
+src/com/bps/to/PrefixFormatTO.java:18	Parameter 'identificationDocument' is not assigned and could be declared final
+src/com/bps/to/PrefixFormatTO.java:24	Parameter 'prefixformat' is not assigned and could be declared final
+src/com/bps/to/StateTO.java:12	Parameter 'countryId' is not assigned and could be declared final
+src/com/bps/to/StateTO.java:12	Parameter 'state' is not assigned and could be declared final
+src/com/bps/to/StateTO.java:22	Parameter 'countryId' is not assigned and could be declared final
+src/com/bps/to/StateTO.java:30	Parameter 'state' is not assigned and could be declared final
+src/com/bps/to/VendorRegistrationTO.java:3	Too many fields
+src/com/bps/to/VendorRegistrationTO.java:26	Avoid really long parameter lists.
+src/com/bps/to/VendorRegistrationTO.java:26	Parameter 'companyRegNo' is not assigned and could be declared final
+src/com/bps/to/VendorRegistrationTO.java:26	Parameter 'countryId' is not assigned and could be declared final
+src/com/bps/to/VendorRegistrationTO.java:27	Parameter 'certIssueDate' is not assigned and could be declared final
+src/com/bps/to/VendorRegistrationTO.java:27	Parameter 'vendorName' is not assigned and could be declared final
+src/com/bps/to/VendorRegistrationTO.java:27	Parameter 'vendorType' is not assigned and could be declared final
+src/com/bps/to/VendorTO.java:11	Parameter 'vendorName' is not assigned and could be declared final
+src/com/bps/to/VendorTO.java:11	Parameter 'vendorType' is not assigned and could be declared final
+src/com/bps/to/VendorTO.java:21	Parameter 'vendorName' is not assigned and could be declared final
+src/com/bps/to/VendorTO.java:29	Parameter 'vendorType' is not assigned and could be declared final
+src/com/bps/to/VendorUpdateTo.java:3	Too many fields
+src/com/bps/to/VendorUpdateTo.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/bps/to/VendorUpdateTo.java:43	Parameter 'vendorId' is not assigned and could be declared final
+src/com/bps/to/VendorUpdateTo.java:53	Parameter 'vendorName' is not assigned and could be declared final
+src/com/bps/to/VendorUpdateTo.java:63	Parameter 'vendorType' is not assigned and could be declared final
+src/com/bps/to/VendorUpdateTo.java:73	Parameter 'companyRegNo' is not assigned and could be declared final
+src/com/bps/to/VendorUpdateTo.java:83	Parameter 'countryId' is not assigned and could be declared final
+src/com/bps/to/venTO.java:3	Class names should begin with an uppercase character
+src/com/bps/to/venTO.java:7	Parameter 'type' is not assigned and could be declared final
+src/com/bps/to/venTO.java:15	Parameter 'ventype' is not assigned and could be declared final
+src/com/bps/to/venTO.java:21	Parameter 'venname' is not assigned and could be declared final
