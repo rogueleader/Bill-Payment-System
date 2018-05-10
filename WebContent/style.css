@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+#rcorners {
+    border-radius: 25px;
+    border: 1px solid #57648C ;
+    padding: 20px; 
+    width: 200px;
+    height: 200px;    
+}
+#shadow{
+	padding-top:10px;
+  text-shadow: 1px 1px 1px #934A5F  ; 
+  color:white;
+ 
+}
+#header {
+	background-color:black;	;
+	
+    
+}
+#midhead
+	{
+	height:20px;
+	background-color:#57B9E0;
+	}
+#bptable{
+	border-radius: 25px;
+    border: 2px solid #57648C ;
+    text-align: left;
+}
+ body {
+	
+    margin-top: -25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#logout {
+	position:absolute;
+	text-align: right;
+	right: 10px;
+}
